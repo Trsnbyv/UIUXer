@@ -159,6 +159,7 @@ body {
 /* Studies section */
 .studies-section {
   padding: 115px 0;
+  background-color: #EDF0F9;
 }
 .studies__text-wrapper {
   width: 803px;
@@ -193,4 +194,120 @@ body {
   margin-top: 39px;
   letter-spacing: 0.4px;
   text-align: center;
+}
+/* Support section */
+.support-section {
+  padding: 115px 0;
+}
+.support__text-wrapper {
+  width: 803px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+.support__title {
+  font-size: 40px;
+  color: #242f65;
+  line-height: 56px;
+  font-family: "Fraunces";
+  margin-bottom: 10px;
+  letter-spacing: 0.4px;
+}
+.support__text {
+  font-size: 20px;
+  line-height: 30px;
+  color: #525665;
+  letter-spacing: 0.4px;
+}
+.support__img-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 86px;
+}
+.support-wrapper-text {
+  font-family: "Fraunces";
+  font-size: 25px;
+  line-height: 37px;
+  color: #242f65;
+  margin-top: 39px;
+  letter-spacing: 0.4px;
+  text-align: center;
+}
+/* Utility section */
+.utility-section {
+  padding: 115px 0;
+  background-color: #2A2C32;
+}
+.utility__text-wrapper {
+  width: 893px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+.utility__title {
+  font-size: 40px;
+  color: white;
+  line-height: 56px;
+  font-family: "Fraunces";
+  margin-bottom: 10px;
+  letter-spacing: 0.4px;
+}
+.utility__text {
+  font-size: 20px;
+  line-height: 30px;
+  color: white;
+  letter-spacing: 0.4px;
+}
+.utility__img-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 86px;
+}
+.utility-wrapper-text {
+  font-family: "Fraunces";
+  font-size: 25px;
+  line-height: 37px;
+  color: white;
+  margin-top: 39px;
+  letter-spacing: 0.4px;
+  text-align: center;
+}
+.wrapper-content{
+  width: 645px;
+}
+/* Ready section */
+.ready-section{
+  padding: 100px 0;
+}
+.ready{
+  background-image: url("./assets/images/ready-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 39px 63px 0;
+}
+.ready-wrapper{
+  width: 527px;
+}
+.ready-title-wrapper{
+  width: 344px;
+}
+.ready__title{
+  font-size: 40px;
+  color: #242f65;
+  line-height: 56px;
+  font-family: "Fraunces";
+  margin-bottom: 12px;
+  letter-spacing: 0.4px;
+}
+.ready__text{
+  font-size: 20px;
+  line-height: 30px;
+  color: #525665;
+  letter-spacing: 0.4px;
+  margin-bottom: 18px;
 }
