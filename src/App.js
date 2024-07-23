@@ -1,4 +1,5 @@
 import "./App.css";
+import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import HomePage from "./components/HomePages/HomePages";
@@ -19,6 +20,7 @@ function App() {
       <Utility/>
       <Ready/>
       </main>
+      <Footer/>
     </>
   );
 }
